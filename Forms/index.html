@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<form name="user" action="send.php" method="GET">
+		<label for="user_name">Your name</label>
+		<input type="text" name="user_name" placeholder="Your name" id="user_name">
+		<br>
+		<br>
+		<label for="user_age">Your age:</label>
+		<input type="number" name="user_age" placeholder="Age" id="user_age">
+		<br>
+		<br> 
+		<label for="user_password">Password</label>
+		<input type="password" name="user_password" placeholder="Password" id="user_password">
+		<br>
+		<br>
+		<input type="radio" name="sex" value="male">M
+		<input type="radio" name="sex" value="female">F
+		<br>
+		<br>
+		<label for="remember">Remember me</label>
+		<input type="checkbox" name="remember" id="remember">
+		<br>
+		<br>
+		<select name="cty">
+			<option value="lviv">Lviv</option>
+			<option value="kyiv">Kyiv</option>
+			<option value="zhitomir">Zhitomir</option>
+		</select>
+		<br>
+		<br>
+		<label for="message">Message</label>
+		<textarea name="message" id="message"></textarea>
+		<br>
+		<br>
+		<input type="submit" name="" value="submit">
+	</form>
+
+</body>
+</html>
